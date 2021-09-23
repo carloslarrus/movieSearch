@@ -1,0 +1,1 @@
+The web is programmed to return all the movies that they contain the specific word, which was written by the user. I use the API omdbapi as database to look for the movies.

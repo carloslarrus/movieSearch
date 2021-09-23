@@ -1,0 +1,91 @@
+ body {
+     margin-left: 100px;
+ }
+ 
+ /* search */
+
+.search {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.input {
+    height: 25px;
+}
+
+.button {
+    
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+/* boxes */
+
+.boxMovie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 450px;
+    margin-top: 50px;
+}
+
+.information {
+   display: block;
+   padding-left: 5%;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(239, 184, 16, 0.5);
+
+}
+.information > div {
+    margin-top: 20px;
+}
+
+img {
+    width : 40%;
+    height : 100%;
+    margin-right: 5%;
+}
+
+.title {
+    width: 100%;
+
+}
+
+.date {
+    font-style: italic;
+}
+
+.rating, .plotWord{
+    font-size : 1.3rem;
+}
+
+
+
+
+.plot {
+    padding-right: 100px;
+    line-height: 1.5;
+}
+
+.genre {
+    
+    display: flex;
+    justify-content: left;
+    align-items: center ;
+}
+
+.genreItem {
+   padding: 4%;
+   margin: 2%;
+   background-color: lightblue;
+   border: 1px solid blue;
+}
